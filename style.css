@@ -35,27 +35,30 @@
 
 .title {
     position: relative;
-    top: 30vh;
+    top: 20vh;
     left: 0px;
     width: auto;
     border: 1px transparent #73AD21;
+    font-size: 5cm;
 
   }
 
 .header {
     position: relative;
-    top: 35vh;
-    left: 5vh;
+    top: 20vh;
+    left: 15vh;
     width: auto;
     border: 1px transparent #73AD21;
+    font-size: 2cm;
 }
 
 .text {
     position: relative;
-    top: 40vh;
-    left: 5vh;
+    top: 25vh;
+    left: 15vh;
     width: auto;
     border: 1px transparent #73AD21;
+    font-size: 1cm;
 }
 
 .cards {
@@ -64,6 +67,18 @@
     left: 0vh;
     width: auto;
     border: 1px transparent #73AD21;
+}
+
+.card1 {
+    position: relative;
+    top: 0vh;
+    left: -10vh;  
+}
+
+.card2 {
+    position: relative;
+    top: 0vh;
+    left: 10vh; 
 }
 
 .contact {
@@ -75,5 +90,63 @@
     
 }
 
+.servicetitle {
+    font-size: 2cm;
+    color: #DDD0C8;
+}
 
+.cardtexth {
+    font-size: 1cm;
+}
+
+.cardtext {
+    font-size:0.5cm;
+}
+
+/*cube*/
+@keyframes turn {
+    from {
+      transform: rotate3d(0, 0, 0, 0);
+    }
+    to {
+      transform: rotate3d(1, 1, 0, 360deg);
+    }
+  }
+  .cube {
+    width: 20px;
+    height: 20px;
+    transform-style: preserve-3d;
+    animation: turn 5s linear infinite;
+    margin: 50px;
+    position: relative;
+    top: 5vh;
+    left: -90vh;
+  }
+  .face {
+    width: 200px;
+    height: 200px;
+    background: black;
+    border: 2px solid white;
+    position: absolute;
+    opacity: 0.75;
+    transform: translateZ(50px);
+  }
+  .front {
+    transform: translateZ(100px);
+  }
+  .back {
+    transform: translateZ(-100px) rotateY(180deg);
+  }
+  .left {
+    transform: translateX(-100px) rotateY(-90deg);
+  }
+  .right {
+    transform: translateX(100px) rotateY(90deg);
+  }
+  .top {
+    transform: translateY(-100px) rotateX(90deg);
+  }
+  .bottom {
+    transform: translateY(100px) rotateX(-90deg);
+  }
 
