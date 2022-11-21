@@ -1,3 +1,4 @@
+/*background class*/
 .bg { 
     background: url(/images/blackhole1.5.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -6,7 +7,7 @@
     background-size: cover;
  }
 
- /* keyframes definition for WebKit browsers */
+ /* keyframes definition for WebKit browsers the animation */
 
 @-webkit-keyframes travel {
     from { left: 0;     }
@@ -29,7 +30,7 @@
     to   { -webkit-transform: rotateZ(360deg); }
   }
   
-  /* keyframes definition for other browsers */
+  /* keyframes definition for other browsers animation*/
   
   @keyframes travel {
     from { left: 0;     }
@@ -188,7 +189,7 @@
     background: black;
     border: 2px solid white;
     position: absolute;
-    opacity: 0.75;
+    opacity: 0.50;
     transform: translateZ(50px);
   }
   .front {
@@ -209,3 +210,6 @@
   .bottom {
     transform: translateY(50px) rotateX(-90deg);
   }
+
+  /*cards*/
+  
