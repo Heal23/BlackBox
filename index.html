@@ -6,16 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>BlackBox</title>
 </head>
 <body>
+   <div>
 
-    <div class="bg">
-        <div id="stage">
-            
-                <div id="traveler">
-                    <div id="bouncer">
-                        <div class="cube">
+                <section id="about" class="section1 text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+                    <nav class="nav navbar navbar-expand-lg bg-dark navbar-dark py-4 ">
+                        <div class="container">
+                            <a href="#" class="navbar-brand">BLACK <span class="text-danger">BOX</span></a> 
+                
+                            <button 
+                            class="navbar-toggler" 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#navmenu"
+                            >
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                
+                            <div class="collapse navbar-collapse" id="navmenu">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a href="#about" class="nav-link">About us</a>
+                                </li>
+                
+                                <li class="nav-item">
+                                    <a href="#services" class="nav-link">Our Services</a>
+                                </li>
+                            
+                                <li class="nav-item">
+                                    <a href="#contact" class="nav-link">Contact us</a>
+                                </li>
+                            
+                            </ul>
+                            </div>
+                        </div>  
+                    </nav>
+
+                      <div class="cube">
                             <div class="face top"></div>
                             <div class="face bottom"></div>
                             <div class="face left"></div>
@@ -23,50 +56,13 @@
                             <div class="face front"></div>
                             <div class="face back"></div>
                         </div>
-                    </div>   
-                </div>   
-            
-                <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-4 ">
-                    <div class="container">
-                        <a href="#" class="navbar-brand">BLACK <span class="text-danger">BOX</span></a> 
-            
-                        <button 
-                        class="navbar-toggler" 
-                        type="button" 
-                        data-bs-toggle="collapse" 
-                        data-bs-target="#navmenu"
-                        >
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-            
-                        <div class="collapse navbar-collapse" id="navmenu">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a href="#about" class="nav-link">About us</a>
-                            </li>
-            
-                            <li class="nav-item">
-                                <a href="#services" class="nav-link">Our Services</a>
-                            </li>
-                        
-                            <li class="nav-item">
-                                <a href="#contact" class="nav-link">Contact us</a>
-                            </li>
-                        
-                        </ul>
-                        </div>
-                    </div>  
-                </nav>
 
-
-
-                <section id="about" class="text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
-                    <div class="container bg-dark">
+                    <div class="container bg-transparent">
                     <div class="d-sm-flex aligh-items-center justify-content-between">
                         <div>
-                            <h1>Black <span class="text-danger">Box</span></h1> 
-                            <h2>Bring your  <span class="text-danger">IDEAS</span> to life</h2>    
-                            <h4 class="text-white">
+                            <h1 class="title animate__animated animate__rollIn animate_slower">Black <span class="text-danger">Box</span></h1> 
+                            <h2 class="header animate__animated animate__pulse animate__infinite">Bring your  <span class="text-danger">IDEAS</span> to life</h2>    
+                            <h4 class="text text-dark animate__animated animate__jackInTheBox text-sm-start">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
                                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
@@ -75,31 +71,41 @@
                                 anim id est laborum.
                             </h4>
                         </div>
+                        <div class="cube">
+                            <div class="face top"></div>
+                            <div class="face bottom"></div>
+                            <div class="face left"></div>
+                            <div class="face right"></div>
+                            <div class="face front"></div>
+                            <div class="face back"></div>
+                          </div>   
                     </div>  
                     </div>
                 </section>
 
+             
 
 
-
-                <section id="services" class="services">
+                <section id="services" class="services section2">
+                    
+                <div class=" container cards">
                     <div class="container text-danger">
-                        <h1>Services</h1>
+                        <h1 class="servicetitle">Services</h1>
                     </div>
                     <div class="container">
                         <div class="row">
                         <div class="col-md-4 col-sm-6 col-xl-4 my-3">
-                            <div class="card d-block h-100 box-shadow-hover pointer">
+                            <div class="card1 card d-block h-100 box-shadow-hover pointer">
                             <div class="pt-3 h-75p align-items-center d-flex justify-content-center">
                                 <img class="img-fluid w-xs-120p" src="/images/team.png" alt="valkyrie ship image">
                             </div>
                             <div class="card-body p-4">
-                                <h3 class="h4"><strong>For your Team</strong></h3>
-                                <p>
-                                    <li>Talent Acquisition</li> 
-                                    <li>Team events</li> 
-                                    <li>Team building</li> 
-                                    <li>Team Adventures</li> 
+                                <h3 class="h4 cardtexth"><strong>For your Team</strong></h3>
+                                <p class="cardtext">
+                                    <li class="cardtext">Talent Acquisition</li> 
+                                    <li class="cardtext">Team events</li> 
+                                    <li class="cardtext">Team building</li> 
+                                    <li class="cardtext">Team Adventures</li> 
                                 </p>
                             </div>
                             </div>
@@ -112,27 +118,27 @@
                             </div>
                     
                             <div class="card-body p-4">
-                                <h3 class="h4"><strong>For your Ideas</strong></h3>
+                                <h3 class="h4 cardtexth"><strong>For your Ideas</strong></h3>
                                 <p>
-                                    <li>Business plan</li> 
-                                    <li>Market analisys</li> 
-                                    <li>Web/App Development</li> 
-                                    <li>Book keeping</li> 
+                                    <li class="cardtext">Business plan</li> 
+                                    <li class="cardtext">Market analisys</li> 
+                                    <li class="cardtext">Web/App Development</li> 
+                                    <li class="cardtext">Book keeping</li> 
                                 </p>
                             </div>
                             </div>
                         </div>
                     
                         <div class="col-md-4 col-sm-6 col-xl-4 my-3">
-                            <div class="card d-block h-100 box-shadow-hover pointer">
+                            <div class="card2 card d-block h-100 box-shadow-hover pointer">
                             <div class="pt-3 h-75p align-items-center d-flex justify-content-center">
                                 <img class="img-fluid w-xs-120p" src="/images/data2.0.png" alt="ship image">
                             </div>
                             <div class="card-body p-4">
-                                <h3 class="h4"><strong>For you Data</strong></h3>
+                                <h3 class="h4 cardtexth"><strong>For you Data</strong></h3>
                                 <p>
-                                    <li>Data Cleaning</li> 
-                                    <li>ML algorithms</li> 
+                                    <li class="cardtext">Data Cleaning</li> 
+                                    <li class="cardtext">ML algorithms</li> 
                                     <li></li> 
                                     <li></li> 
                                 </p>
@@ -142,91 +148,87 @@
                     
                         </div>
                     </div>
+                </div>
                 </section>
- 
-                <section class="contact">
-                    <div id="contact" class="text-center mt-3 text-danger ">
-                        <h1 > Contact Form</h1>                       
-                    </div> 
-                    <div class="row">
-                        <div class="col-lg-7 mx-auto">
-                        <div class="card mt-2 mx-auto p-4 bg-transparent">
-                            <div class="card-body bg-transparent">
-                            <div class = "container">
-                                <form id="contact-form" role="form">     
+
+                <section id="services" class="services section1">
                     
-                                <div class="controls">
-                    
-                                    <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group text-white">
-                                        <label for="form_name">Firstname *</label>
-                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">                          
-                                        </div>
-                                    </div>
+                    <div class="contact">
+                        <div id="contact" class="text-center mt-3 text-danger ">
+                            <h1 > Contact Form</h1>                       
+                        </div> 
+                        <div class="row">
+                            <div class="col-lg-7 mx-auto">
+                            <div class="card mt-2 mx-auto p-4 bg-transparent">
+                                <div class="card-body bg-transparent">
+                                <div class = "container">
+                                    <form id="contact-form" role="form">     
+                        
+                                    <div class="controls">
+                        
+                                        <div class="row">
                                         <div class="col-md-6">
-                                        <div class="form-group text-white">
-                                            <label for="form_lastname">Lastname *</label>
-                                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                            <div class="form-group text-white">
+                                            <label for="form_name">Firstname *</label>
+                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">                          
+                                            </div>
+                                        </div>
+                                            <div class="col-md-6">
+                                            <div class="form-group text-white">
+                                                <label for="form_lastname">Lastname *</label>
+                                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                            <div class="form-group text-white">
+                                                <label for="form_email">Email *</label>
+                                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                                            
+                                            </div>
+                                            </div>
+                                                    
+                                            <div class="col-md-6">
+                                            <div class="form-group text-white">
+                                                <label for="form_need">Please specify your need *</label>
+                                                <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                                    <option value="" selected disabled>--Select Your Issue--</option>
+                                                    <option >Request Invoice for order</option>
+                                                    <option >Request order status</option>
+                                                    <option >Haven't received cashback yet</option>
+                                                    <option >Other</option>
+                                                </select>
+                                                            
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                            <div class="form-group text-white">
+                                                <label for="form_message">Message *</label>
+                                                <textarea id="form_message" name="message" class="form-control" placeholder="Write your message here." rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                                    
+                                            </div>
+                                            </div>
+                                            <div class="col-md-12"> 
+                                            <br>                    
+                                            <input type="submit" class="btn btn-danger btn-send  pt-2 btn-block" value="Send Message" >                
+                                            </div>       
                                         </div>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                        <div class="form-group text-white">
-                                            <label for="form_email">Email *</label>
-                                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                                                        
-                                        </div>
-                                        </div>
-                                                
-                                        <div class="col-md-6">
-                                        <div class="form-group text-white">
-                                            <label for="form_need">Please specify your need *</label>
-                                            <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
-                                                <option value="" selected disabled>--Select Your Issue--</option>
-                                                <option >Request Invoice for order</option>
-                                                <option >Request order status</option>
-                                                <option >Haven't received cashback yet</option>
-                                                <option >Other</option>
-                                            </select>
-                                                        
-                                        </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                        <div class="form-group text-white">
-                                            <label for="form_message">Message *</label>
-                                            <textarea id="form_message" name="message" class="form-control" placeholder="Write your message here." rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                                                
-                                        </div>
-                                        </div>
-                                        <div class="col-md-12"> 
-                                        <br>                    
-                                        <input type="submit" class="btn btn-danger btn-send  pt-2 btn-block" value="Send Message" >                
-                                        </div>       
-                                    </div>
-                                    </div>
+                                    </form>
                                 </div>
-                                </form>
-                            </div>
+                                </div>
                             </div>
                         </div>
                     </section>
-
-                <footer class="footer p-5 bg-dark text-white text-center position-relative">
-                    <div class="container">
-                      <p class="lead">Copyright &copy; 2022 BlackBox</p>
-              
-                      <a href="#" class="position-absolute bottom-0 end-0 p-5">
-                        <i class="bi bi-arrow-up-circle h1"></i>
-                      </a>
-                    </div>
-                  </footer>
+             
            
-        </div>
+        
     </div>
 
     
 </body>
+</html>
