@@ -25,9 +25,11 @@
 
 .section1 {
     background-color: #DDD0C8;
+    height: auto;
 }
 .section2 {
     background-color: #323232;
+    height: auto;
 }
 
 .section3 {
