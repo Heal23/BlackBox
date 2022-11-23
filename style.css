@@ -5,14 +5,14 @@
     
  }
 
- * {
+ /* * {
     box-sizing: border-box;
   }
   html {
     font-family: sans-serif;
-    scroll-snap-type: none;
+    scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(100vh);
-    scroll-snap-type: y none;
+    scroll-snap-type: y mandatory;
   }
   section {
     border-bottom: 1px solid rgb(236, 236, 236);
@@ -21,7 +21,7 @@
     scroll-snap-align: start;
     text-align: center;
     position: relative;
-  }
+  } */
 
 .section1 {
     background-color: #DDD0C8;
@@ -30,52 +30,41 @@
     background-color: #323232;
 }
 
-.title {
-    position: relative;
-    top: 20vh;
-    left: 0px;
-    width: auto;
-    border: 1px transparent #73AD21;
-    font-size: 5cm;
+.section3 {
+  background-color: #DDD0C8;
+}
 
+.title {
+    padding: 0px;
+    margin-top: 100px;
+    font-size: 2cm;
   }
 
+
 .header {
-    position: relative;
-    top: 20vh;
-    left: 3vh;
-    width: auto;
-    border: 1px transparent #73AD21;
-    font-size: 2cm;
+  padding: 20px;
+  margin: 0px;
+  font-size: 1.5cm;
 }
 
 .text {
-    position: relative;
-    top: 25vh;
-    left: 4vh;
-    width: auto;
-    border: 1px transparent #73AD21;
-    font-size: 1cm;
+  padding: 0px;
+  margin-bottom: 100px;
+  font-size: 1cm;
 }
 
 .cards {
     position: relative;
-    top: 20vh;
-    left: 0vh;
     width: auto;
     border: 1px transparent #73AD21;
 }
 
 .card1 {
-    position: relative;
-    top: 0vh;
-    left: -3vh;  
+    position: relative;  
 }
 
 .card2 {
-    position: relative;
-    top: 0vh;
-    left: 3vh; 
+    position: relative; 
 }
 
 .contact {
@@ -86,10 +75,17 @@
     border: 1px transparent #73AD21; 
     
 }
+/*cards*/
+img {
+  width: auto;
+  max-height: 500px;
+}
 
 .servicetitle {
-    font-size: 2cm;
+    font-size: 1.5cm;
     color: #DDD0C8;
+    padding: 50px;
+    margin-left: 0px;
 }
 
 .cardtexth {
@@ -116,8 +112,8 @@
     animation: turn 5s linear infinite;
     margin: 50px;
     position: relative;
-    top: 5vh;
-    left: -90vh;
+    top: 0vh;
+    left: 0vh;
   }
   .face {
     width: 200px;
@@ -147,24 +143,12 @@
     transform: translateY(100px) rotateX(-90deg);
   }
 
-/*cards*/
-.box-shadow-hover:hover {
-  box-shadow: 0 2px 5px 0 rgba(149, 150, 135, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-}
 
-.pointer {
-  cursor: pointer;
-}
-
-img {
-  width: auto;
-  max-height: 500px;
-}
 
 /*Navbar*/
 .nav {
   position: relative;
-    top: -3vh;
+    top: 0vh;
     left: 0vh;
 }
 
@@ -174,3 +158,4 @@ img {
   left: 0vh;
 }
 
+/*sections test*/
