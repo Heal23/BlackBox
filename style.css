@@ -109,7 +109,7 @@ img {
     width: 20px;
     height: 20px;
     transform-style: preserve-3d;
-    animation: turn 5s linear infinite;
+    animation: turn 7s linear infinite;
     margin: 50px;
     position: relative;
     top: 0vh;
