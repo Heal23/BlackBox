@@ -73,7 +73,7 @@
 }
 
 .card1 {
-    position: relative;  
+    position: relative; 
 }
 
 .card2 {
@@ -98,7 +98,9 @@ img {
     font-size: 1.5cm;
     color: #DDD0C8;
     padding: 50px;
-    margin-left: 0px;   
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;   
 }
 
 .cardtexth {
